@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		856655AC2185DD59008FF6F4 /* Lightsensor.m in Sources */ = {isa = PBXBuildFile; fileRef = 856655AA2185DD59008FF6F4 /* Lightsensor.m */; };
 		B18A2800205ADE2700ED2038 /* Magnetometer.m in Sources */ = {isa = PBXBuildFile; fileRef = B18A27FF205ADE2700ED2038 /* Magnetometer.m */; };
 		E7FCE1881E14639E005C5155 /* Gyroscope.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FCE1871E14639E005C5155 /* Gyroscope.m */; };
 		E7FCE18B1E150266005C5155 /* Accelerometer.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FCE18A1E150266005C5155 /* Accelerometer.m */; };
@@ -27,8 +26,6 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNSensors.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNSensors.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		856655AA2185DD59008FF6F4 /* Lightsensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lightsensor.m; sourceTree = "<group>"; };
-		856655AB2185DD59008FF6F4 /* Lightsensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lightsensor.h; sourceTree = "<group>"; };
 		B18A27FE205ADE2700ED2038 /* Magnetometer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Magnetometer.h; sourceTree = "<group>"; };
 		B18A27FF205ADE2700ED2038 /* Magnetometer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Magnetometer.m; sourceTree = "<group>"; };
 		E7FCE1861E14639E005C5155 /* Gyroscope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gyroscope.h; sourceTree = "<group>"; };
@@ -65,8 +62,6 @@
 				E7FCE18A1E150266005C5155 /* Accelerometer.m */,
 				E7FCE1861E14639E005C5155 /* Gyroscope.h */,
 				E7FCE1871E14639E005C5155 /* Gyroscope.m */,
-				856655AB2185DD59008FF6F4 /* Lightsensor.h */,
-				856655AA2185DD59008FF6F4 /* Lightsensor.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -129,7 +124,6 @@
 			files = (
 				E7FCE1881E14639E005C5155 /* Gyroscope.m in Sources */,
 				E7FCE18B1E150266005C5155 /* Accelerometer.m in Sources */,
-				856655AC2185DD59008FF6F4 /* Lightsensor.m in Sources */,
 				B18A2800205ADE2700ED2038 /* Magnetometer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
